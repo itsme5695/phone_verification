@@ -11,8 +11,8 @@ import com.example.phoneverification.databinding.ActivityJustBinding
 class JustActivity : AppCompatActivity() {
     var START_MILLI_SECONDS = 60000L
     lateinit var countdown_timer: CountDownTimer
-    var time_in_milli_seconds = 0L
-    var isRunning: Boolean = false;
+//    var time_in_milli_seconds = 0L
+//    var isRunning: Boolean = false;
     lateinit var binding: ActivityJustBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
